@@ -1,0 +1,22 @@
+<!-- views/about.ejs -->
+<html>
+
+<head>
+    <title>About Page</title>
+    <link rel="stylesheet" href="/styles.css"> <!-- Include CSS -->
+</head>
+
+<body>
+    <!-- Include the Navbar -->
+    <%- include("navbar", { links: links }) %>
+
+        <h1>About Page</h1>
+        <p>Welcome to the About page! This is a test website using Express and EJS.</p>
+
+        <a href="/">Go back Home</a>
+
+            <!-- ✅ Include the Footer -->
+            <%- include("footer") %>
+</body>
+
+</html>
